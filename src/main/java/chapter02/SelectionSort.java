@@ -39,7 +39,7 @@ public class SelectionSort {
      * @param list
      * @return
      */
-    private int getSmallestIndex(ArrayList<Integer> list) {
+    private int getSmallestIndex(List<Integer> list) {
         int smallestIndex = 0;
         for (int i = 1; i < list.size(); i++) {
             if (list.get(i) < list.get(smallestIndex)) {
